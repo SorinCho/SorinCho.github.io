@@ -1,0 +1,71 @@
+#about-page{
+    background-color: black;
+    color: rgb(41, 206, 63);
+    
+    font-family: Menlo, monospace; /*Menlo 'Anonymous Pro'*/
+    /* line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); */
+}
+
+#about-page .page-content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 10% 90%;
+    justify-items: center;
+    /* align-items: start; */
+    /* column-gap: 20%; */
+}
+
+#about-page .page-content .grid-element{
+    /* justify-self: center; */
+    padding: 10%;
+}
+
+.page-title {
+    position: absolute;
+    top: 0;
+}
+
+.page-body {
+}
+
+.page-content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    /* margin: 5%; */
+}
+
+.back-link:link {
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.back-link:visited {
+    color: rgb(41, 206, 63);
+}
+
+.back-link:hover {
+    color: black;
+    background-color: rgb(41, 206, 63);
+    mix-blend-mode: screen;
+}
+
+.back-link:active {
+    color: black;
+    background-color: rgb(41, 206, 63);
+    mix-blend-mode: screen;
+}
+
+#back-link-white {
+    color: white;
+}
+
+#back-link-white:hover {
+    color: red;
+    background-color: black;
+    transition: 0.3s;
+}

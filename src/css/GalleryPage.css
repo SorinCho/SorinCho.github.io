@@ -1,0 +1,20 @@
+#gallery {
+  list-style-type: none;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  margin: 2% 0%;
+}
+
+#gallery-page {
+  background-color: rgb(0, 20, 0);
+}
+
+.wallpaper-container {
+  display: flex;
+  justify-content: center;
+}
+
+.wallpaper {
+  max-width: 80%;
+}

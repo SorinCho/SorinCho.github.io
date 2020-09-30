@@ -1,0 +1,48 @@
+
+#contact-page {
+    color: white !important;
+    background-color: black;
+    text-shadow: none !important;
+}
+
+.credits-wrapper {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 2%
+}
+
+.credits-wrapper ul {
+    padding: 0;
+}
+
+.credits-left {
+    text-align: right;
+}
+
+.credits-right {
+    text-align: left;
+}
+
+#title-contact {
+    text-align: center;
+}
+
+.credits-wrapper a {
+    text-decoration: none;
+}
+
+.credits-wrapper a:visited {
+    color: white;
+}
+
+.credits-wrapper a[href^="mailto:"]
+{ 
+    text-decoration: none;
+    color: white !important;
+}
+
+.credits-wrapper a:visited[href^="mailto:"]
+{ 
+    text-decoration: none;
+    color: white !important;
+}

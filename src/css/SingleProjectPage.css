@@ -1,0 +1,31 @@
+.common-link:link {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(41, 206, 63);
+}
+
+.common-link:visited {
+    color: rgb(41, 206, 63);
+}
+
+.common-link:hover {
+    color: black;
+    background-color: rgb(41, 206, 63);
+    mix-blend-mode: screen;
+}
+
+.common-link:active {
+    color: black;
+    background-color: rgb(41, 206, 63);
+    mix-blend-mode: screen;
+}
+
+.back-wrapper {
+    position: absolute;
+    bottom: 0;
+}
+
+#single-projects-page .page-title {
+    position: absolute;
+    top: 0;
+}
